@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="https://kit.fontawesome.com/eeb244492f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--  -->
+<div id="header">
+    <div class="container">
+        <nav>
+        <!-- <img src="Images/logo.png" class="logo"> -->
+        <h1>Anshu Kumar</h1>
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </nav>
+        <div class="header-text">
+            <p>Data Science Enthusiast</p>
+            <h1>Hi, I'm Anshu Kumar</h1>
+        </div>
+        </div>
+</div>
+
+<!--------------------------------------About--------------------------------------------------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+        <div class="about-col-1">
+        <img src="Images/pic1.jpg", height="500px", width="500px">
+        </div>
+        <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+            <p> <b>As a dedicated and aspiring data scientist, I am passionate about leveraging data
+                to drive insights and innovation. My objective is to work in an organization
+                that provides opportunities for technical and personal advancement.
+                I have completed various courses in Python, data science, and statistics, 
+                and have a solid understanding of data science and machine learning concepts. 
+                Additionally, my degree in mathematics has equipped me with the ability to 
+                think critically and solve complex problems.</b></p>
+                <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"><b>Skills</b></p>
+                        <p class="tab-links" onclick="opentab('experience')"><b>Experience</b></p>
+                        <p class="tab-links" onclick="opentab('education')"><b>Education</b></p>
+                </div>
+                <!-- Skills -->
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <!-- <li><span><b>Data Science</b></span></li> -->
+                        <li><span><b>Data Science/Machine Learning/Deep Learning</b></span><br>Python, Data Visualization, Supervised learning algos, Unsupervised
+                            learning algos, ANN, CNN, EDA, Feature Engineering, Feature Selection
+                            & extraction etc.</li>
+                        <li><span><b>Python packages and Frameworks</b></span><br>Scikit-Learn, Tensorflow, Keras, Numpy, Pandas, Matplotlib, Seaborn,
+                            Plotly Express.</li>
+                        <li><span><b>Databases</b></span><br>SQL, RDBMS</li>
+                        <li><span><b>Programming Language</b></span><br>Python</li>
+                    </ul>
+                </div>
+                <!-- Experience -->
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <!-- <li><span><b>Data Science</b></span></li> -->
+                        <li><span><b>Data Science</b></span><br>Python, Data Visualization, Supervised learning algos, Unsupervised
+                            learning algos.</li>
+                        <li><span><b>Python packages</b></span><br>Scikit-Learn, Pandas, Matplotlib, Seaborn,
+                            Plotly Express.</li>
+                        <li><span><b>Databases</b></span><br>SQL, </li>
+                        <li><span><b>Programming </b></span><br>Python</li>
+                    </ul>
+                </div>
+                <!-- Education -->
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <!-- <li><span><b>Data Science</b></span></li> -->
+                        <li><span><b>Deep Learning</b></span><br> ANN, CNN, EDA, Feature Engineering, Feature Selection
+                            & extraction etc.</li>
+                        <li><span><b>Python packages and Frameworks</b></span><br>Scikit-Learn, Tensorflow, Keras, Numpy, Pandas, Matplotlib, Seaborn,
+                            Plotly Express.</li>
+                        <li><span><b>Databases</b></span><br>SQL, RDBMS</li>
+                        <li><span><b>Programming Language</b></span><br>Python</li>
+                    </ul>
+                </div>
+            
+        </div>
+</div>
+<!-- --------------------------------PROJECTS-------------------------------------------- -->
+<hr class="dotted">
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="services-list">
+            <!-- project 1 -->
+            <div>
+                <i class="fa-sharp fa-solid fa-house"></i>
+                <h2><a href="https://github.com/Anshu3721/Banglore_house_price_prediction">Banglore House Price Prediction</a></h2>
+                <p>Developed a machine learning algorithm for predicting what drug
+                    should be prescribed to 200 patients using different machine learning
+                    models.</p>
+                <!-- <a href="https://github.com/Anshu3721/Banglore_house_price_prediction">Read More</a> -->
+            </div>
+            <!-- Project 2 -->
+            <div>
+                <i class="fa-sharp fa-solid fa-heart-pulse"></i>
+                <h2><a href="https://github.com/Anshu3721/Pima-Indian-Diabetes">Pima Indian Diabetes</a></h2>
+                <p>Developed a machine learning algorithm 
+                    for predicting what whether a person has heart disease or not.</p>
+                <!-- <a href="https://github.com/Anshu3721/Pima-Indian-Diabetes">Read More</a> -->
+            </div>
+            <!-- Project 3 -->
+            <div>
+                <i class="fa-solid fa-video"></i>
+                <h2><a href="https://github.com/Anshu3721/Netflix_EDA_webapp">EDA of Netflix Dataset</a></h2>
+                <p>Analysis of Netflix and IMDb data of TV Shows and Movie titles
+                    which are focused on visualizing data to explore how Netflix has
+                    expanded over the years to cater to its growing international
+                    audience</p>
+                <!-- <a href="">Read More</a> -->
+            </div>
+            
+        </div>
+        <a href="project.html" class="btn1">See More</a>
+    </div>
+        
+</div>
+<hr class="dotted">
+
+<!-- -------------------------Blogs----------------------------------------- -->
+<div id="blogs">
+    <div class="container">
+        <h1 class="sub-title">Blogs</h1>
+        <div class="work-list">
+            <!-- Image 1 -->
+            <div class="work">
+                <img src="Images/Object oriented programming.jpg">
+                <div class="layer">
+                    <h3><b>Object-Oriented Programming Language</b></h3>
+                    <p>It is a programming paradigm in computer science that relies on the concept of classes and objects.</p>
+                    <a href="https://medium.com/@anshukumar.3721/object-oriented-programming-language-82d90e50ae6"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <!-- image 2 -->
+            <div class="work">
+                <img src="Images/stats4.jpg">
+                <div class="layer">
+                    <h3><b>Statistics</b></h3>
+                    <p>It is the study of the collection, analysis, interpretation, presentation, and organization of data</p>
+                    <a href="https://anshuk3721.blogspot.com/2022/04/statistics-for-datascience.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <!-- image 3 -->
+            <div class="work">
+                <img src="Images/python4.jpg">
+                <div class="layer">
+                    <h3><b>Python</b></h3>
+                    <p>It is a computer programming language often used to build websites
+                         and software, automate tasks, and conduct data analysis.</p>
+                    <a href="https://medium.com/@anshukumar.3721/python-programming-language-c755628f4ef6"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="blogs.html" class="btn">See More</a>
+    </div>
+
+</div>
+<!-- ----------------------------Scripts------------------------------------------------- -->
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>    
+</body>
+</html>
